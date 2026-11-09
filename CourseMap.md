@@ -164,8 +164,31 @@ By the end of this part, you'll have a solid foundation in Rust and HTTP, and be
     - blacklist
     - AuthUser extractor
 - Cookies and Sessions
-- Authorisation
+    - Cookie jar
+    - Signed cookies
+    - Private cookies
+    - tower sessions
+    - session fixation
+    - flash messages
+    - custom SQLx store
+- Authorization
+    - 401: Who are you
+    - 403: You may not
+    - 404: Pretend its not here
+    - Roles
+    - Permisions
+    - Guard Layers
+    - API Keys
+    - Ownership Checks
+    - Tenant scoping
 - Security Hardening
+    - Security headers + CSP
+    - Strict CORS list
+    - SQL injection
+    - SSRF
+    - Secrets Handling
+    - Self Audit
+    - Dependency Audit
 ## PART 5: Realtime, Uploads, Video Streaming
 ## PART 6: API Styles, OpenAPI, GraphQL, gRPC
 ## PART 7: Testing, Tracing, Perfomance, TLS, Docker
