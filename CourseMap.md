@@ -205,15 +205,74 @@ By the end of this part, you'll have a solid foundation in Rust and HTTP, and be
 - Self Audit
 - Dependency Audit
 ## PART 5: Realtime, Uploads, Video Streaming
-- WebSockets
-- Server-Sent Events
-- Streaming bodies
-- Uploads and downloads
-- Chunked and resumable uploads
-- Range requests and Chunked downloads
-- Streaming Video and audio
-- Background jobs and messaging
-- Calling other services and proxying
+### Module 23: WebSockets
+- upgrade, messages
+- split send / recieve
+- broadcast rooms
+- presence
+- origin checks
+- idle timeouts
+
+### Module 24: Server-Sent Events
+- one-way streams
+- keep-alive
+- broadcast fan-out
+- Last-Event-ID replay
+- detect disconects
+
+### Module 25: Streaming bodies
+- huge responses, no memory
+- backpressure
+- JSON lines
+- protobuf
+- streaming proxy
+
+### Module 26: Uploads and downloads
+- safe download errors
+- multipart forms
+- size limits
+- sniff by real content
+- clean filenames
+- storage trait
+- a file named ../something
+
+### Module 27: Chunked and resumable uploads
+- Why one big request fails
+- upload sessions
+- chunk + file checksums
+- resume after a drop
+- sweeper
+- vs tus / s3 multipart
+
+### Module 28: Range requests and Chunked downloads
+- Range header
+- 206 and 426
+- conditional ranges
+- a pretend 1gb file
+- throttling
+- parallel downloader
+
+### Module 29: Streaming Video and audio
+- what <video> sends
+- signed expiring URLs
+- audio tags
+- HLS(needs ffmpeg)
+
+### Module 30: Background jobs and messaging
+- Tracked tasks
+- workers + backpressure
+- graceful shutdown
+- cron schedules
+- job queue
+- AMQP
+- outbox pattern
+
+### Module 31: Calling other services and proxying
+- timeouts
+- retries
+- signed webhooks
+- reverse proxy
+
 ## PART 6: API Styles, OpenAPI, GraphQL, gRPC
 ## PART 7: Testing, Tracing, Perfomance, TLS, Docker
 ## PART 8: Deployment, CI/CD, Monitoring, Logging
