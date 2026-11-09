@@ -112,8 +112,60 @@ By the end of this part, you'll have a solid foundation in Rust and HTTP, and be
     - Maud
     - Post-Redirect-get
     - HTMX
+  
 ## PART 3: SQLx, Postgres, Redis
+- SQLx and Postgres
+    - connection pool
+    - embedded migrations
+    - typed queries
+    -  enums
+    - transactions
+    - compile-time checked SQL
+    - docker compose up
+- Architecture and the repository pattern
+    - handlers, services, repositories
+    - repository trait
+    - generics vs dyn
+    - contract test
+    - swap in-memory, postgres
+- ORMs and Other databases
+    - SQLx + SQLite
+    - SeaORM
+    - Diesel async
+    - tokio-postgress
+    - MongoDb
+- Caching and Rate limiting
+    - Redis
+    - in-process cache
+    - Etag + conditional requests
+    - rate limiter
+    - concurrency limits
+    - Graceful degredation
+- Rest API design
+    - pagination
+    - filtering
+    - sorting
+    - PATCH semantics
+    - Idempotency keys
+    - Versioning
+    - One error format
+    - typed routes
 ## PART 4: Auth and Security
+- Passwords and users
+    - Why we Hash
+    - argon2
+    - registration + login
+    - same-time failures
+    - account lockout
+    - reset tokens
+- JWT Authentication
+    - pinned algorithm
+    - Key rotation
+    - blacklist
+    - AuthUser extractor
+- Cookies and Sessions
+- Authorisation
+- Security Hardening
 ## PART 5: Realtime, Uploads, Video Streaming
 ## PART 6: API Styles, OpenAPI, GraphQL, gRPC
 ## PART 7: Testing, Tracing, Perfomance, TLS, Docker
