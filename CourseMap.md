@@ -78,3 +78,44 @@
  
 By the end of this part, you'll have a solid foundation in Rust and HTTP, and be ready to move on to more advanced topics.You are able to create a CRUD app.
 
+## PART 2: Middleware and Tower
+- Tower Fundamentals
+    - Service + Layer by hand
+    - Layer order rule
+    - layer Vs Route-layer
+    - timeouts
+    - Limits
+    - Load shedding
+    - one-shot router tests
+- Axum middleware
+    - from_fn
+    - map_request, map_response
+    - optional layers
+    - reading bodies
+    - Rate limiter Project
+- The tower-http toolbox
+    - requets tracing
+    - CORS
+    - Compresion
+    - Request ids
+    - body limits
+    - CSRF protection
+    - Header Validation
+    - Panic catching
+    - Path normalization
+- Static files and server-rndered HTML
+    - serve a folder
+    - SPA fallbacks
+    - files embedded + ETag
+    - Askama
+    - Minijinja
+    - Maud
+    - Post-Redirect-get
+    - HTMX
+## PART 3: SQLx, Postgres, Redis
+## PART 4: Auth and Security
+## PART 5: Realtime, Uploads, Video Streaming
+## PART 6: API Styles, OpenAPI, GraphQL, gRPC
+## PART 7: Testing, Tracing, Perfomance, TLS, Docker
+## PART 8: Deployment, CI/CD, Monitoring, Logging
+## CAPSTONE PROJECTS
