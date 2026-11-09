@@ -274,6 +274,25 @@ By the end of this part, you'll have a solid foundation in Rust and HTTP, and be
 - reverse proxy
 
 ## PART 6: API Styles, OpenAPI, GraphQL, gRPC
+### Module 32: OpenAPI Documentation
+- generated docs
+- Swagger UI + Scalar
+- committed contract
+- client generation
+
+### Module 33: GraphQL
+- queries, mutations, subscriptions
+- DataLoader (N+1)
+- guards
+- depth + complexity limits
+
+### Module 34: gRPC with tonic 
+- protobuf
+- 4 call types
+- interceptors
+- deadlines
+- REST + gRPC, one port
+
 ## PART 7: Testing, Tracing, Perfomance, TLS, Docker
 ## PART 8: Deployment, CI/CD, Monitoring, Logging
 ## CAPSTONE PROJECTS
