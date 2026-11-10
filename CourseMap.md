@@ -294,5 +294,71 @@ By the end of this part, you'll have a solid foundation in Rust and HTTP, and be
 - REST + gRPC, one port
 
 ## PART 7: Testing, Tracing, Perfomance, TLS, Docker
-## PART 8: Deployment, CI/CD, Monitoring, Logging
+### Module 35: Testing
+- Router tests
+- real-listener tests
+- WebSocket + DB tests
+- mocks
+- snapshots
+### Module 36: Logging, tracing and metrics
+- structued logs
+- request spans
+- openTelemetry
+- Prometheus
+- health probes
+
+### Module 37: Configuration and project structure
+- env variables
+- config files
+- commandline flags
+- secrets
+- Feature flags
+- configuration management
+
+### Module 38: Async and debugging handlers
+- blocking code
+- cancellation safety
+- timeouts with select
+- send / sync errors
+- #[debug_handler]
+
+### Module 39: Perfomance
+- release profile
+- allocators
+- pools
+- load testing
+- benchmarking
+- measure first, brag later
+
+### Module 40: Axum::serve in depth
+- listeners
+- TCP options
+- graceful shutdown
+- unix sockets
+- socket hand-over
+
+### Module 41: TLS and HTTPS
+- redirect from HTTP
+- HSTS
+- HTTP/2
+
+### Module 42: Docker and Containers
+- multistage builds
+- cached dependencies
+- health checks
+- compose stack
+
+### Module 43: Kubernetes
+### Module 44: Axum and custom Services
+- how Router works
+- Handler trait
+- Service + Layer by hand
+
 ## CAPSTONE PROJECTS
+### C1: TODO REST API
+### C2: AUTH SERVICE
+### c3: Realtime Chat
+### C4: Video and music streaming site
+### C5: Blog web
+### C6: Link shortener
+### C7: Production API
